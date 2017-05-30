@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>UX Design Workflow</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">			
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<!-- Importing Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600%7COswald" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="display-4 text-center title">UX Design Workflow</h1>
+			<hr>
+			<div class="row justify-content-md-center">
+				<div class="col-10 col-md-auto">
+					<p class="subtitle">The Why.</p>
+					<p class="lead">Being a developer, I have always been fascinated by the design portfolios on <a class="linker" href="https://www.behance.net/search?field=102&content=projects&sort=featured_date&time=all" target="_blank">Behance</a> and <a class="linker" href="https://dribbble.com/" target="_blank">Dribbble</a>. Although I have been creating UIs using code but the concept of UX design workflow was fairly new to me. And on one fine Saturday afternoon, I decided to give it a shot.</p>	
+					
+					<p class="subtitle">The What.</p>
+					<p class="lead">I recently completed a project that was about building a sensor network to be deployed in the wild. The sensor stations would measure rainfall and upload the data to the remote server (if there is an external network available) or save it till the user safely downloads the log from them. Read more about the project <a class="linker" href="http://www.rahulxsharma.com/img/iot.jpg" target="_blank">here</a>.</p>
+					<p class="lead">Now, if there is an external network available, the stations work fairly well by measuring rainfall and uploading data to the remote server at regular intervals. However, in the absence of an external network, the user can go to the site and download the data off the station by connecting to their Ad-Hoc network and then upload it to the server on reaching home.</p>
+					
+					<p class="subtitle">The How.</p>
+					<p class="lead">I was inspired by the following workflow approaches.</p>
+					<ul>
+						<li><a class="linker" href="https://medium.com/@HichamMoutahir/why-having-a-ui-ux-workflow-is-awesome-and-how-to-build-your-own-874749912d29" target="_blank">The definitive Shibi Designs workflow</a></li>
+						<li><a class="linker" href="https://www.smashingmagazine.com/2016/09/choosing-the-right-prototyping-tool/" target="_blank">Choosing the right prototyping tool</a></li>
+					</ul>
+					<p class="lead">My goal was to understand the whole prototyping process by building low, mid and high fidelity wireframes of an iOS app for the project mentioned above. Another objective was to identify the right tools that will become a part of my go-to toolset for future design tasks.</p>
+					
+					<hr>
+					
+					<p class="lead"><mark>Low Fidelity Prototype</mark></p>
+					<p class="lead">After trying out different test-cases and user flows, I finished my Lo-Fi prototype on paper. Using pen and paper liberates you from wasting time on making things pixel-perfect and focus on the main content.</p>
+					
+					<p class="lead">The landing page provides the user the option to switch to a network — Wi-Fi (when at home) or Ad-Hoc (when in the woods, near sensors). I created two workflows, one each for Wi-Fi and Ad-Hoc.</p>
+					
+					<img src="img/lofi1.png" alt="Lo-Fi-1" class="img-fluid small">
+					<img src="img/lofi2.png" alt="Lo-Fi-2" class="img-fluid small">
+					
+					<hr>
+					
+					<p class="lead"><mark>Medium Fidelity Prototype</mark></p>
+					<p class="lead">Once I was satisfied with my pen and paper design, it was time to accelerate things further. Before indulging myself in the nitty-gritty of the app in Sketch, I wanted to prepare a minimalistic digital version of my pen and paper design.</p>
+					
+					<p class="lead">After fiddling with a few tools, I finally settled with <a class="linker" href="https://wireframe.cc/" target="_blank">Wireframe.cc</a>. It provides you with a barebones structure for creating the prototype with several components for inserting dummy images, headings and paragraphs.</p>
+					
+					<p class="lead">Here is the prototype I made using Wireframe.cc, pretty simple to begin without extra frills.</p>
+					<img src="img/midfi.png" alt="Mid-Fi" class="img-fluid high">
+					
+					<hr>
+					
+					<p class="lead"><mark>High Fidelity Prototype</mark></p>
+					<p class="lead">A thing to note here is that prototyping is not necessarily an A to Z process. Transferring the paper design to screen may introduce a few design challenges and optimizations that should be taken care of. The aim is to continuosly adapt the design to suit the changing requirements.</p>
+					<p class="lead">After the medium fidelity prototype, it was time to add in some iOS components to make it look like a real app. Here is the final prototype I made using Sketch.</p>
+					
+					<img src="img/home.png" alt="Hi-Fi-1" class="img-fluid high">
+					<img src="img/AdHoc_1.png" alt="Hi-Fi-2" class="img-fluid high">
+					<img src="img/AdHoc_2.png" alt="Hi-Fi-3" class="img-fluid high">
+					<img src="img/Wi-Fi_1.png" alt="Hi-Fi-4" class="img-fluid high">
+					<img src="img/Wi-Fi_2.png" alt="Hi-Fi-5" class="img-fluid high">
+					
+					<p class="lead">To add in some interactivity, I used the <a class="linker" href="https://www.invisionapp.com/craft" target="_blank">Craft</a> plugin (by InVision). It allows the user to define <em>hit areas</em> that can be used to trigger certain actions. The final interactive prototype can be viewed <a class="linker" href="https://goo.gl/BRz6Qo" target="_blank">here</a>.</p>
+					
+					<img src="img/craft.png" alt="Craft" class="img-fluid high centered-block">
+					<hr>
+					<p class="subtitle">tl;dr</p>
+					<p class="lead">To understand the UX design workflow, I created an iOS app prototype which can be viewed <a class="linker" href="https://goo.gl/BRz6Qo" target="_blank">here</a>. <br>
+					And here is how I did it.</p>
+					<ul>
+						<li>Gathered specs and requirements.</li>
+						<li>Created/tested use cases and flow of control.</li>
+						<li>Low Fidelity Prototype: Pen and Paper</li>
+						<li>Medium Fidelity Prototype: Wireframe.cc</li>
+						<li>High Fidelity Prototype: Sketch + InVision</li>
+					</ul>
+					<hr>
+					<p class="lead text-center"><em>Made in Ithaca, NY</em></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

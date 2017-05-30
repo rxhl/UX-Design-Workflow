@@ -1,0 +1,36 @@
+.title {
+	padding-top: 10px;
+	font-family: "Oswald", sans-serif;
+}
+
+.subtitle {
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5rem;
+}
+
+.lead {
+	font-size: 1.1rem;
+}
+
+.small {
+	max-width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.high {
+	max-width: 50%;
+	margin: 50px auto;
+	display: block;
+	
+}
+
+.linker a {
+  	text-decoration: none;
+	color: #004e92;
+}
+
+.linker a:hover {
+  	text-decoration: none;
+	border-bottom: 1px solid #004e92;
+}
